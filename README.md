@@ -9,8 +9,12 @@ Jetson Nano AI - AI on EDGE Computing
 * Nano에 PyCUDA 설치하기
 In a .bashrc file
 ```
-   export CPATH=$CPATH:/usr/local/cuda-10.0/targets/aarch64-linux/include
-   export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/cuda-10.0/targets/aarch64-linux/lib
+   export PATH="/usr/local/cuda-10.2/bin:$PATH"
+   export LD_LIBRARY_PATH="/usr/local/cuda-10.2/lib64:$LD_LIBRARY_PATH"
+
+   export CPATH=$CPATH:/usr/local/cuda-10.2/targets/aarch64-linux/include
+   export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/cuda-10.2/targets/aarch64-linux/lib
+
 ```
 
 설치
