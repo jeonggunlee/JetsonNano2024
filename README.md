@@ -1,7 +1,7 @@
 # JetsonNano2024
 ![Hallym SW](./swhallym.png)
 
-Jetson Nano AI - AI on EDGE Computing
+## Jetson Nano AI - AI on EDGE Computing
 
 - 날짜: 2024년 2월 5일
 - 시간: 오후 1시 - 5시 (4시간)
