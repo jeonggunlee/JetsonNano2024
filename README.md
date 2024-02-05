@@ -1,4 +1,5 @@
 # JetsonNano2024
+![Hallym SW](./swhallym.jpg)
 
 Jetson Nano AI - AI on EDGE Computing
 
